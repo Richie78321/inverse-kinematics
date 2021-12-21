@@ -1,0 +1,5 @@
+add_executable(InverseKinematicsApp app.cpp)
+
+target_link_libraries(InverseKinematicsApp raylib)
+target_link_libraries(InverseKinematicsApp InverseKinematics)
+target_include_directories(InverseKinematicsApp PUBLIC ../include/app)
